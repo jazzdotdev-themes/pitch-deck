@@ -1,0 +1,49 @@
+{% extends "layouts/base.html" %}
+
+{% block head %}
+
+  {% include  'headers/studio-meta.html' %}
+  {% include  'headers/studio-feeds.html' %}
+  {% include  'headers/studio-stylesheets.html' %}
+  
+{% endblock head %}
+
+{% block title %}
+  {{ super() }}
+
+  {% if TITLE %}
+    {{ TITLE }}
+  {% else %}
+    {{ SITENAME }}
+  {% endif %}
+
+{% endblock title %}  
+
+{% block style %}
+  {{ super() }}
+  {% include  'headers/styles-studio.html' %}
+{% endblock style %}
+
+
+{% block navigation %}
+  {{ super() }}
+  <!-- Nav bar-->
+  {% include  'chunks/nav.html' %}
+
+{% endblock navigation %}  
+
+{% block content %}
+  {{ super() }}
+
+
+{% endblock content %}
+
+{% block footer %}
+  {{ super() }}
+
+  <!-- footer -->
+  {% include  'chunks/footer.html' %}
+
+{% endblock footer %} 
+
+
