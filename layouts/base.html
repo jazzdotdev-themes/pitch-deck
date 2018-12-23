@@ -1,10 +1,10 @@
-{% extends "layouts/base.html" %}
+{% extends "^" %}
 
 {% block head %}
   {{ super() }}
-  {% include  'headers/studio-meta.html' %}
-  {% include  'headers/studio-feeds.html' %}
-  {% include  'headers/studio-stylesheets.html' %}
+  {% include  'headers/meta.html' %}
+  {% include  'headers/feeds.html' %}
+  {% include  'headers/stylesheets.html' %}
   
 {% endblock head %}
 
@@ -21,7 +21,7 @@
 
 {% block style %}
   {{ super() }}
-  {% include  'headers/styles-studio.html' %}
+  {% include  'headers/styles.html' %}
 {% endblock style %}
 
 
