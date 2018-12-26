@@ -1,10 +1,8 @@
-{% extends "^" %}
+{^}
 
 {% block head %}
   {{ super() }}
-  {% include  'headers/meta.html' %}
   {% include  'headers/feeds.html' %}
-  {% include  'headers/stylesheets.html' %}
   
 {% endblock head %}
 
@@ -21,7 +19,7 @@
 
 {% block style %}
   {{ super() }}
-  {% include  'headers/styles.html' %}
+  {% include  'headers/studio.html' %}
 {% endblock style %}
 
 
@@ -34,7 +32,6 @@
 
 {% block content %}
   {{ super() }}
-
 
 {% endblock content %}
 
