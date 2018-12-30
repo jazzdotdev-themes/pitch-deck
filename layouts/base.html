@@ -1,8 +1,8 @@
-{^}
+{% extends "^/layouts/base.html" %}
 
 {% block head %}
   {{ super() }}
-  {% include  'headers/feeds.html' %}
+  {% include  "headers/feeds.html" %}
   
 {% endblock head %}
 
@@ -19,14 +19,14 @@
 
 {% block style %}
   {{ super() }}
-  {% include  'headers/studio.html' %}
+  {% include  "headers/studio.html" %}
 {% endblock style %}
 
 
 {% block navigation %}
   {{ super() }}
   <!-- Nav bar-->
-  {% include  'chunks/nav.html' %}
+  {% include  "chunks/nav.html" %}
 
 {% endblock navigation %}  
 
@@ -39,7 +39,7 @@
   {{ super() }}
 
   <!-- footer -->
-  {% include  'chunks/footer.html' %}
+  {% include  "chunks/footer.html" %}
 
 {% endblock footer %} 
 
