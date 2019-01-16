@@ -1,3 +1,5 @@
 name: studio-theme
 parents:
   - base-theme
+  - side-modal-theme
+  - subscription-template-theme
