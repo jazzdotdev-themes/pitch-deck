@@ -1,5 +1,13 @@
 {% extends "layouts/base.html" %}
 
+{% block event_input %}
+  {{ super() }}
+  {# include "chunks/side_modal.html" #}
+
+  {% include "chunks/subscription_side_modal.html" %}
+
+{% endblock event_input %}
+
 {% block content %}
   {{ super() }}
     
