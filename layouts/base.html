@@ -28,6 +28,11 @@
   
 {% endblock style %}
 
+{% block event_input %}
+  {{ super() }}
+  {% include "chunks/side_modal.html" %}
+
+{% endblock event_input %}
 
 {% block navigation %}
   {{ super() }}
