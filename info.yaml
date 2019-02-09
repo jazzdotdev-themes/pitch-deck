@@ -3,3 +3,4 @@ parents:
   - base-theme
   - side-modal-theme
   - subscription-menu
+  - notifications
