@@ -1,6 +1,0 @@
-inline-block
-no-underline
-hover:text-grey-lighter
-hover:text-underline
-py-2
-px-4

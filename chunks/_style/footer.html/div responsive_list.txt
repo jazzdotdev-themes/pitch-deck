@@ -1,8 +1,0 @@
-flex
-w-full
-pt-2
-content-center
-justify-between
-md:w-1/2
-md:justify-end
-link-list

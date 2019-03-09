@@ -1,4 +1,0 @@
-footer
-p-2
-mt-0
-w-full

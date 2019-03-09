@@ -21,23 +21,15 @@
   {{ super() }}
   {% include  "headers/studio.html" %}
 
-  <!-- subscritpion styles implementation -->
-  {% include "headers/subscription.html" %}
-  <!-- side modal styles headers -->
-  {% include "headers/side_modal_styles.html" %}
-  
 {% endblock style %}
 
 {% block event_input %}
   {{ super() }}
-  {% include "chunks/side_modal.html" %}
 
 {% endblock event_input %}
 
 {% block navigation %}
   {{ super() }}
-  <!-- Nav bar-->
-  {% include  "chunks/nav.html" %}
 
 {% endblock navigation %}  
 
@@ -48,9 +40,6 @@
 
 {% block footer %}
   {{ super() }}
-
-  <!-- footer -->
-  {% include  "chunks/footer.html" %}
 
 {% endblock footer %} 
 

@@ -1,4 +1,0 @@
-text-white
-no-underline
-hover:text-white
-hover:no-underline
